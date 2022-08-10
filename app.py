@@ -1,13 +1,10 @@
 from investiment_dto import InvestimentDto
 
 def run_app():
-    print_app_name() 
+    print('*** CALCULADORA DE CUSTOS***\n')
     
     investiment = get_investiment()
     investiment.calc()
-    
-def print_app_name():
-    print('*** CALCULADORA DE CUSTOS***\n')
     
 def get_investiment():
     _initial_value = ask_value('Informe o valor inicial: ')
@@ -25,10 +22,7 @@ def ask_value(question):
     
     print('Informe um valor válido')
     return ask_value(question)
-    
-def calc(initial_value):
-    print('Valor inicial: ' + initial_value)
-    
+        
 if __name__ == '__main__':
     run_app()
     
