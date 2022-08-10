@@ -1,7 +1,7 @@
 class InvestimentDto:
     def __init__(self, initial_value, monthly_investment, anual_fee, period):
-        self._initial_value = int(initial_value)
-        self._monthly_investment = int(monthly_investment)
+        self._initial_value = float(initial_value)
+        self._monthly_investment = float(monthly_investment)
         self._anual_fee = float(anual_fee)
         self._period = int(period)
         self.total = 0

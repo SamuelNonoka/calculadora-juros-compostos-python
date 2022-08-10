@@ -3,6 +3,8 @@
 ## Descrição
 Este projeto é uma calculadora básica de juros compostos criado em Python para estudos pessoais.
 
+![Calculadora de juros compostos](example.png)
+
 ### Pré-requisitos
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 
