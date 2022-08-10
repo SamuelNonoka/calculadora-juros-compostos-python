@@ -6,7 +6,7 @@ Este projeto é uma calculadora básica de juros compostos criado em Python para
 ### Pré-requisitos
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 
-[Git](https://git-scm.com), [Python3](https://www.python.org/)
+[Git](https://git-scm.com), [Python3](https://www.python.org/), [Pip](https://pip.pypa.io/en/stable/installation/)
 
 ### 🎲 Rodando o Projeto
 
