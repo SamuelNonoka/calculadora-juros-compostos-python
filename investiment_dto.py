@@ -10,7 +10,7 @@ class InvestimentDto:
         print('\nCalculo:\n')
         
         total_fee = 0
-        total_investiment = self._monthly_investment * (self._anual_fee / 12)
+        total_investiment = self._monthly_investment * 12
         total = self._initial_value
         month = 1
         monthly_fee = self._anual_fee / 12
@@ -35,7 +35,7 @@ class InvestimentDto:
             month = int(month) + 1
             
         print(f'\nTotal: {round(total, 2)}')
-        print(f'Valor Investido: {round(total_investiment, 2)}')
+        print(f'Total Investido: {round(total_investiment, 2)}')
         print(f'Juros acumulado: {round(total_fee, 2)}\n')
             
     def format_print(self, new_value, size):
